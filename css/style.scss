@@ -12,7 +12,6 @@ html {
 }
 
 .header {
-    height: 800px;
     background:
         url(../images/header/blur.png) no-repeat bottom center,
         url(../images/header/Symbol_Long_leg.png) no-repeat bottom center,
@@ -24,6 +23,7 @@ html {
     max-width: 1440px;
     padding: 0px 60px;
     margin: auto;
+
 }
 
 .header_line {
@@ -70,30 +70,25 @@ html {
     }
 
 
-    .header_line_block_right_manu {
-        max-width: 405px;
-        margin: auto;
-
+    .header_line_block_right_menu {
+        width: 404px;
         .menu {
             display: flex;
-            align-items: center;
+            margin: auto;
+            margin-top: 19px;
+            
+        }
 
-            &-item {
-                display: inline-block;
-                margin: 0 19px;
-                opacity: 0.6;
-                margin-top: 15px;
-            }
+        &-link {
+            @include font(18, $cd-color, 400, $open-sans)
+        }
 
-            &-item.active {
-                position: relative;
-
-                a {
-                    color: $white;
-                }
-            }
-
+        &-list {
+            display: inline-block;
         }
     }
+}
 
+.header_logo_description {
+color: white;
 }
