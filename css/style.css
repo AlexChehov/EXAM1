@@ -8,3 +8,46 @@ html {
   text-decoration: none;
 }
 
+.header {
+  height: 800px;
+  background: url(../images/header/blur.png) no-repeat bottom center, url(../images/header/Symbol_Long_leg.png) no-repeat bottom center, url(../images/header/Frame_2.png) no-repeat bottom center, linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 60px;
+  margin: auto;
+}
+
+.header_line {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.header_logo_left {
+  width: 155px;
+  height: 62px;
+}
+
+.header_line_block_right {
+  width: 564px;
+}
+.header_line_block_right .header_line_block_right_up {
+  display: inline-flex;
+}
+.header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege {
+  display: inline-flex;
+  width: 76px;
+  justify-content: space-between;
+}
+.header_line_block_right .header_line_block_right_up .header_line_block_right_adress {
+  margin: 0px 20px;
+}
+.header_line_block_right .header_line_block_right_up .headeer_line_block_right_f {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
