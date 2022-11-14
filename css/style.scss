@@ -27,7 +27,7 @@ html {
 }
 
 .header_line {
-    max-width: 1320px;
+    max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -50,12 +50,17 @@ html {
         .header_line_block_right_lengvege {
             display: inline-flex;
             width: 76px;
-            justify-content: space-between;
         }
 
         .header_line_block_right_adress {
             margin: 0px 20px;
-            @include font($white);
+            font-family: 'TT Norms';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            color: #FFFFFF;
         }
 
         .header_line_block_right_phone {
@@ -72,23 +77,62 @@ html {
 
     .header_line_block_right_menu {
         width: 404px;
+
         .menu {
             display: flex;
-            margin: auto;
-            margin-top: 19px;
-            
+            align-items: center;
+
+            &-burger {
+                display: none;
+                transition: 1s ease-in-out;
+                z-index: 100;
+
+                // div {
+                //     width: 54px;
+                //     height: 29px;
+                //     background: $primary-color;
+                //     transition: 1s ease-in-out;
+
+                //     &:nth-child(2) {
+                //         margin: 10px 0;
+                //     }
+                // }
+            }
+
+            &-item {
+                display: inline-block;
+                margin: 0 29px;
+                opacity: 0.6;
+                margin-top: 15px;
+
+            }
+
+            &-item.active {
+                position: relative;
+
+                a {
+                    color: $white;
+                }
+
+                &::before {
+                    @include pseudo(100%, 3px);
+                    background: $primary-color;
+                    bottom: -30px;
+                    left: 0;
+
+                }
+            }
+
+            &-link {
+                @include font(15, $cd-color, 400, $open-sans)
+            }
+
+            &-list {
+                transition: 1s ease-in-out;
+               
+            }
+
         }
 
-        &-link {
-            @include font(18, $cd-color, 400, $open-sans)
-        }
-
-        &-list {
-            display: inline-block;
-        }
     }
-}
-
-.header_logo_description {
-color: white;
 }
