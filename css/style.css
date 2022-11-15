@@ -115,7 +115,7 @@ html {
 }
 
 .about {
-  height: 1347px;
+  padding-bottom: 80px;
   background: url(../images/about/backgraund.png) no-repeat bottom center, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 }
 
@@ -127,6 +127,16 @@ html {
 
 .about_title_left {
   width: 527px;
+}
+.about_title_left .about_title_title_active {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  text-align: right;
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .about_title_left .about_title_title {
   font-family: "TT Norms";
@@ -180,28 +190,114 @@ html {
   background-clip: text;
 }
 
-.about_description_description {
+.about_description {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about_description .about_description_description {
   display: inline-block;
   width: 413px;
   margin: 20px 10px;
 }
-.about_description_description .description_logo {
+.about_description .about_description_description .description_logo {
   width: 92px;
   height: 92px;
   background: #FFFFFF;
   border-radius: 24px;
 }
-.about_description_description .description_title {
+.about_description .about_description_description .description_title {
   margin-top: 20px;
   font-family: "TT Norms";
   font-size: 24px;
   line-height: 28px;
   color: #24A3FF;
 }
-.about_description_description .description-sub_title {
+.about_description .about_description_description .description-sub_title {
   margin-top: 15px;
   font-family: "TT Norms";
   font-size: 18px;
   line-height: 26px;
   color: #FFFFFF;
+}
+
+.card_shadow {
+  width: 1440px;
+  margin: -2px auto;
+  text-align: center;
+}
+
+.team_team_team {
+  overflow: hidden;
+}
+
+.team_team {
+  max-width: 1320px;
+  margin: 40px auto;
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+.team_team .team {
+  display: flex;
+}
+.team_team .team_logo_left {
+  width: 413px;
+  height: 500px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.team_block_right {
+  padding: 0px 40px;
+}
+.team_block_right .team_com {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  margin: 40px 0px;
+  text-decoration: none;
+  display: flex;
+}
+.team_block_right .team_com .team_link_vol {
+  width: 5px;
+  height: 9px;
+  margin: 1px 0px;
+}
+.team_block_right .team_description {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.team_block_right .team_lider {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA;
+  margin-top: 20px;
+}
+.team_block_right .team_lider_lider {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+  margin-top: 5px;
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
