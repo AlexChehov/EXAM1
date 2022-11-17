@@ -221,9 +221,11 @@ html {
 }
 
 .card_shadow {
-  width: 1440px;
   margin: -2px auto;
   text-align: center;
+}
+.card_shadow img {
+  width: 90%;
 }
 
 .team_team_team {
@@ -300,4 +302,20 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.slick-dots li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 0px 14px;
+  opacity: 0.4;
+  background: #24A3FF;
+}
+.slick-dots li button {
+  font-size: 0;
+  background: none;
+}
+.slick-dots li .slick-active {
+  opacity: 1;
+  background: #24A3FF;
 }/*# sourceMappingURL=style.css.map */

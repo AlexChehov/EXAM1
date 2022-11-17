@@ -278,9 +278,13 @@ html {
 }
 
 .card_shadow {
-    width: 1440px;
+    // width: 1440px;
     margin: -2px auto;
     text-align: center;
+
+    img {
+        width: 90%;
+    }
 }
 
 // -----------------------------------------
@@ -321,7 +325,8 @@ html {
         margin: 40px 0px;
         text-decoration: none;
         display: flex;
-        .team_link_vol{
+
+        .team_link_vol {
             width: 5px;
             height: 9px;
             margin: 1px 0px;
@@ -365,6 +370,25 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-   
-}
+    
 
+    li {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin: 0px 14px;
+        opacity: 0.4;
+        background: #24A3FF;
+
+
+        button {
+            font-size: 0;
+            background: none;
+
+        }
+        .slick-active {
+            opacity: 1;
+            background: #24A3FF;
+        }
+    }
+}
