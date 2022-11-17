@@ -303,6 +303,11 @@ html {
   align-items: center;
   justify-content: center;
 }
+.slick-dots .slick-active {
+  opacity: 1;
+  cursor: pointer;
+  background: #24A3FF;
+}
 .slick-dots li {
   width: 16px;
   height: 16px;
@@ -314,8 +319,5 @@ html {
 .slick-dots li button {
   font-size: 0;
   background: none;
-}
-.slick-dots li .slick-active {
-  opacity: 1;
-  background: #24A3FF;
+  border: none;
 }/*# sourceMappingURL=style.css.map */

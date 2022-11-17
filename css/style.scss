@@ -371,7 +371,13 @@ html {
     align-items: center;
     justify-content: center;
     
+    .slick-active {
+        opacity: 1;
+        cursor: pointer;
 
+        background: #24A3FF;
+    }
+    
     li {
         width: 16px;
         height: 16px;
@@ -384,11 +390,9 @@ html {
         button {
             font-size: 0;
             background: none;
+            border: none;
 
         }
-        .slick-active {
-            opacity: 1;
-            background: #24A3FF;
-        }
+       
     }
 }
