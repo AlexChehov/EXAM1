@@ -634,11 +634,6 @@ html {
   background: #F5F5FA;
   border-radius: 0px;
 }
-.pablications .publication_block {
-  max-width: 1321px;
-  height: 720px;
-  background: url(../images/pablications/Shade.png) no-repeat linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
-}
 
 .publication_header_linc {
   max-width: 393px;
@@ -678,9 +673,6 @@ html {
 }
 
 .publication_item {
-  max-width: 1321px;
-  height: 720;
-  overflow: hidden;
   display: flex;
   margin-top: 80px;
   display: grid;
@@ -770,4 +762,39 @@ html {
 
 .futer {
   background: #E5E5E5;
+}
+
+.futer_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.futer_contacs {
+  display: inline-block;
+  width: 492px;
+  height: 79px;
+  margin: 40px 0px;
+}
+.futer_contacs li {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+  margin: 4px 17px;
+  display: inline-block;
+}
+
+.futer_futer {
+  width: 344px;
+  height: 19px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #B3B3BA;
+  margin-top: 32px;
 }/*# sourceMappingURL=style.css.map */
