@@ -14,3 +14,12 @@ $('.team_team_team').slick({
     adaptiveHeight: true,
 });
     
+
+$('.futer-slick').slick({
+    arrows:false,
+    dots:true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 3
+
+});
