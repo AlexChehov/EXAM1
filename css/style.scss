@@ -51,7 +51,17 @@ html {
                 justify-content: space-between;
                 display: flex;
                 width: 80px;
-                color: #FFFFFF;
+
+                .h {
+                    font-family: 'TT Norms';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    color: #FFFFFF;
+                }
             }
 
             .header_line_block_right_adress {
@@ -83,22 +93,26 @@ html {
     .menu {
         right: 0;
         display: flex;
-        // align-items: center;
+        
 
         &-burger {
             display: none;
             transition: 1s ease-in-out;
             z-index: 100;
 
-            // div {
-            //     width: 54px;
-            //     height: 29px;
-            //     transition: 1s ease-in-out;
+            div {
+                width: 54px;
+                height: 29px;
+                transition: 1s ease-in-out;
 
-            //     &:nth-child(2) {
-            //         margin: 10px 0;
-            //     }
-            // }
+                &:nth-child(2) {
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        li {
+            text-decoration: none;
         }
 
         &-item {
@@ -114,7 +128,7 @@ html {
             color: $white;
 
             &::before {
-                // @include pseudo(100%, 3px);
+                @include pseudo(100%, 3px);
                 left: 0;
             }
         }
@@ -171,6 +185,8 @@ html {
 
 .about_title_left {
     width: 527px;
+    text-decoration: none;
+    
 
     .about_title_title_active {
         font-family: 'TT Norms';
@@ -260,6 +276,7 @@ html {
         }
 
         .description_title {
+            width: 413px;
             margin-top: 20px;
             font-family: 'TT Norms';
             font-size: 24px;
@@ -756,8 +773,6 @@ html {
 .pablications {
     background: #F5F5FA;
     border-radius: 0px;
-
-
 }
 
 
@@ -861,7 +876,7 @@ html {
     font-size: 16px;
     line-height: 22px;
     color: #000000;
-    
+
 }
 
 .publication_item2 {
@@ -924,18 +939,18 @@ html {
 
 .futer_contacs {
     display: inline-block;
-    width: 492px;
+    width: 442px;
     height: 79px;
     margin: 40px 0px;
 
     li {
         font-family: 'TT Norms';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
         color: #323264;
-        margin: 4px 17px;
+        margin: 4px 10px;
         display: inline-block;
     }
 }

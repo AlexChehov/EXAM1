@@ -40,6 +40,15 @@ html {
   justify-content: space-between;
   display: flex;
   width: 80px;
+}
+.header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege .h {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
   color: #FFFFFF;
 }
 .header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_adress {
@@ -70,6 +79,17 @@ html {
   transition: 1s ease-in-out;
   z-index: 100;
 }
+.header_line_block_right_menu .menu-burger div {
+  width: 54px;
+  height: 29px;
+  transition: 1s ease-in-out;
+}
+.header_line_block_right_menu .menu-burger div:nth-child(2) {
+  margin: 20px 0;
+}
+.header_line_block_right_menu .menu li {
+  text-decoration: none;
+}
 .header_line_block_right_menu .menu-item {
   display: inline-block;
   margin: 0 15px;
@@ -81,6 +101,10 @@ html {
   color: white;
 }
 .header_line_block_right_menu .menu-item.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
   left: 0;
 }
 .header_line_block_right_menu .menu-link {
@@ -127,6 +151,7 @@ html {
 
 .about_title_left {
   width: 527px;
+  text-decoration: none;
 }
 .about_title_left .about_title_title_active {
   font-family: "TT Norms";
@@ -206,6 +231,7 @@ html {
   border-radius: 24px;
 }
 .about_description .about_description_description .description_title {
+  width: 413px;
   margin-top: 20px;
   font-family: "TT Norms";
   font-size: 24px;
@@ -782,18 +808,18 @@ html {
 
 .futer_contacs {
   display: inline-block;
-  width: 492px;
+  width: 442px;
   height: 79px;
   margin: 40px 0px;
 }
 .futer_contacs li {
   font-family: "TT Norms";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #323264;
-  margin: 4px 17px;
+  margin: 4px 10px;
   display: inline-block;
 }
 

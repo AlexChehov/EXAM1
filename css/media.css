@@ -1,7 +1,72 @@
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .container {
-        padding: 0 20px;
+        padding: 20px 20px;
+    }
+
+    .header_line_block_right_adress {
+        display: none;
+    }
+
+    .headeer_line_block_right_f {
+        display: none;
+    }
+
+    .header_logo_left {
+        width: 77px;
+        height: 31px;
+    }
+
+    .header_line_block_right_up {
+
+        position: absolute;
+        width: 335px;
+        height: 24px;
+        left: 20px;
+        top: 20px;
+        justify-content: space-between;
+
+    }
+
+    .header_line_block_right_phone {
+        font-family: 'TT Norms';
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #B3B3BA;
+
+    }
+
+    /* -------------------------------------- */
+
+    .about_title {
+        display: none;
+
+    }
+
+    .about_title_centr_line {
+        display: none;
+    }
+
+
+    .about_description {
+        justify-content: center;
+    }
+
+    .about_description_description {
+        display: flex;
+        margin: auto;
+
+    }
+
+    .description_title {
+        width: 260px;
+
+    }
+
+    /* ----------------------------------------- */
+
+    .team_logo_left {
+display: none;
     }
 
 }
