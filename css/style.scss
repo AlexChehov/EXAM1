@@ -139,10 +139,10 @@ html {
 
         &-item.active {
             position: relative;
-            // color: $white;
+            color: red;
 
             &::before {
-                // @include pseudo(100%, 3px);
+                @include pseudo(100%, 3px);
                 left: 0;
             }
         }
