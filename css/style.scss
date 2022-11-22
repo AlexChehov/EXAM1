@@ -1070,6 +1070,10 @@ a.active {
         color: #323264;
         margin: 4px 10px;
         display: inline-block;
+        a{
+            text-decoration: none;
+        }
+       
     }
 }
 

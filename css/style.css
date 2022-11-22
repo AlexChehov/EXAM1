@@ -841,6 +841,9 @@ a.active {
   margin: 4px 10px;
   display: inline-block;
 }
+.futer_contacs li a {
+  text-decoration: none;
+}
 
 .futer_futer {
   width: 344px;
