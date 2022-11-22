@@ -148,6 +148,7 @@ html {
         }
 
         &-link {
+            text-decoration: none;
             color: white;
         }
 
@@ -206,33 +207,53 @@ html {
 }
 
 .about_title_left {
+    
     width: 527px;
     text-decoration: none;
+    color: #B3B3BA;
+    text-align: right;
 
-
-    .about_title_title_active {
+    .active {
         font-family: 'TT Norms';
-        font-size: 42px;
-        line-height: 50px;
-        text-align: right;
+        // font-size: 42px;
+        // line-height: 50px;
+        // text-align: right;
         background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-
     }
 
-    .about_title_title {
+    a {
         font-family: 'TT Norms';
         font-size: 42px;
         line-height: 50px;
-        text-align: right;
-        color: #B3B3BA;
         margin: 20px 0px;
-        text-decoration: none;
+        display: block;
     }
-
 }
+
+a.active {
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 50px;
+    text-align: right;
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about_title_title {
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 50px;
+    text-align: right;
+    color: #B3B3BA;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
 
 .about_title_centr_line {
     margin: 0px 40px;

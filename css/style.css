@@ -108,6 +108,7 @@ html {
   left: 0;
 }
 .header_line_block_right_menu .menu-link {
+  text-decoration: none;
   color: white;
 }
 .header_line_block_right_menu .menu-list {
@@ -152,8 +153,25 @@ html {
 .about_title_left {
   width: 527px;
   text-decoration: none;
+  color: #B3B3BA;
+  text-align: right;
 }
-.about_title_left .about_title_title_active {
+.about_title_left .active {
+  font-family: "TT Norms";
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.about_title_left a {
+  font-family: "TT Norms";
+  font-size: 42px;
+  line-height: 50px;
+  margin: 20px 0px;
+  display: block;
+}
+
+a.active {
   font-family: "TT Norms";
   font-size: 42px;
   line-height: 50px;
@@ -163,7 +181,8 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.about_title_left .about_title_title {
+
+.about_title_title {
   font-family: "TT Norms";
   font-size: 42px;
   line-height: 50px;
