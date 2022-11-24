@@ -59,39 +59,44 @@ html {
         width: 564px;
 
         .header_line_block_right_up {
-            display: inline-flex;
+            display: flex;
+            // display: inline-flex;
 
             .header_line_block_right_lengvege {
                 justify-content: space-between;
                 display: flex;
                 width: 80px;
-                // letter-spacing: 1px;
+                letter-spacing: 1px;
+
+                font-family: 'TT Norms';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
 
 
                 .leangvege_line {
                     a {
-                        font-family: 'TT Norms';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 12px;
-                        line-height: 14px;
-                        text-align: center;
+                        
+                        // font-family: 'TT Norms';
+                        // font-style: normal;
+                        // font-weight: 700;
+                        // font-size: 12px;
+                        // line-height: 14px;
+                        // text-align: center;
+                        
                         color: #FFFFFF;
                         text-decoration: none;
                     }
 
                     a.active {
-                        font-family: 'TT Norms';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 12px;
-                        line-height: 14px;
-                        text-align: center;
+
                         width: 29px;
                         height: 24px;
                         background: #F0145A;
                         border-radius: 8px;
-                        padding: 6px 5px;
+                        // padding: 6px 5px;
 
                     }
                 }
@@ -901,7 +906,12 @@ a.active {
     border-radius: 0px;
 }
 
-
+.publication_block{
+    height: 872px;
+    overflow: hidden;
+    // background: url(../images/pablications/Shade.png) no-repeat ,
+    // linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+}
 
 .publication_header_linc {
     max-width: 393px;

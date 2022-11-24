@@ -34,35 +34,29 @@ html {
   width: 564px;
 }
 .header_line .header_line_block_right .header_line_block_right_up {
-  display: inline-flex;
+  display: flex;
 }
 .header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege {
   justify-content: space-between;
   display: flex;
   width: 80px;
-}
-.header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege .leangvege_line a {
+  letter-spacing: 1px;
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
+}
+.header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege .leangvege_line a {
   color: #FFFFFF;
   text-decoration: none;
 }
 .header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_lengvege .leangvege_line a.active {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
   width: 29px;
   height: 24px;
   background: #F0145A;
   border-radius: 8px;
-  padding: 6px 5px;
 }
 .header_line .header_line_block_right .header_line_block_right_up .header_line_block_right_adress {
   margin: 0px 20px;
@@ -691,6 +685,11 @@ a.active {
 .pablications {
   background: #F5F5FA;
   border-radius: 0px;
+}
+
+.publication_block {
+  height: 872px;
+  overflow: hidden;
 }
 
 .publication_header_linc {
